@@ -190,7 +190,9 @@ const options = {
   continuationKey: 'userId',
   belongsToUserOptions: undefined,
   metaDataFields: undefined,
-  metaDataContinuationKey: 'metaData'
+  metaDataContinuationKey: 'metaData',
+  revisionTableSchema: "public",
+  freezeTableName: false,
 };
 ```
 
