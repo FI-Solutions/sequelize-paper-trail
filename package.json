@@ -30,7 +30,7 @@
 		"versioning",
 		"nodejs"
 	],
-	"main": "lib/index.js",
+	"main": "dist/index.js",
 	"engines": {
 		"node": ">=5.0.0",
 		"npm": ">=3.3"
