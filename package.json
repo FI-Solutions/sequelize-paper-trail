@@ -35,7 +35,7 @@
 		"npm": ">=3.3"
 	},
 	"scripts": {
-		"prepare": "npm run build",
+		"prepack": "npm run build",
 		"build": "babel lib/ --out-dir dist/",
 		"lint": "eslint --ext .js lib test",
 		"lint:fix": "npm run lint -- --fix",
