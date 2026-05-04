@@ -17,3 +17,10 @@ dist
 # SQLite test db
 # test.db
 # *.sqlite
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
